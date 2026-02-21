@@ -1,0 +1,28 @@
+{
+  "name": "simple-site-optimizer",
+  "version": "1.0.0",
+  "description": "Server-side rendering and prerendering utility for single page applications",
+  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssr",
+    "prerender",
+    "express",
+    "puppeteer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "lmdb": "^3.0.8",
+    "path-to-regexp": "^6.2.1",
+    "puppeteer": "^22.0.0"
+  }
+}
