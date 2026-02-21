@@ -69,8 +69,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
-.env.test
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -115,3 +113,4 @@ Thumbs.db
 
 # Simple Site Optimizer specific
 pre-rendered-data/
+config.bat
